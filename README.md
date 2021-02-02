@@ -1,2 +1,3 @@
 # fan_cafe
-Spring FanCafe web site
+2020년 후이즈 웹개발 스터디에서 제작한 팬카페 웹 사이트
+이클립스에서 자바 스프링으로 제작
