@@ -1,0 +1,126 @@
+.banner {
+	text-align:center;
+	margin-bottom : 20px;
+}
+body {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.main {
+	width : 1080px;
+	height : auto;
+	margin : 0 auto;
+	position : relative;
+}
+li {
+	list-style-type : none;
+}
+a {
+	color : #333;
+	text-decoration: none;
+}
+.special-menu {
+	width : 1080px;
+	height : 48px;
+	margin : 0 auto;
+	border: 1px solid #e5e5e5;
+	position : relative;
+}
+
+.special-menus ul {
+	position : absolute;
+	left : 10%;
+}
+.special-menus li {
+	position : relative;
+	float : left;
+	padding : 0 15px;
+	font-size : 14px;
+}
+
+.dot a:before {
+	content : '';
+	position : absolute;
+	top : 5px;
+	left : 98%;
+	width : 3px;
+	height : 3px;
+	border-radius : 50%;
+	background-color : #a3a9a9;
+}
+
+.cafe-box-menus {   
+    text-align: left;
+    float: left;
+	width : 200px;
+	height: auto;
+    padding: 20px;
+	border-top: 1px solid #333;
+}
+.cafe-login{
+    width: 1080px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.cafe-loging {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cafe-loging h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+.maypage-table {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.maypage-table td{
+	padding: 10px;
+	height : 40px;
+}
+
+.maypage-table td input {
+	border: 1px solid #e5e5e5;
+	width:	250px;
+	height : 40px;
+}
+
+.login-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login-btn input{
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    background-color: #5a5a5a;
+	border: 1px solid #5a5a5a;
+}
+
+.foot {
+    overflow: hidden;
+    width: 990px;
+    height: 50px;
+    margin: 20px auto 0;
+    padding: 18px 90px 18px 0;
+    border-top: 2px solid #333;
+    position: relative;
+}
+
+.foot h5 {
+    position: absolute;
+    left: 30px;
+}
+
+li a:hover {
+    border-bottom: 1px solid #333;
+}
+
+.cafe-post-stars li a:hover {
+    border-bottom: 1px solid #ff4e59;
+}
